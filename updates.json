@@ -1,0 +1,15 @@
+{
+  "addons": {
+    "你的插件ID (必须和manifest.json里的一样)": {
+      "updates": [
+        {
+          "version": "1.0.1",
+          "update_link": "https://github.com/zhangsan/zotero-copy-meta/releases/download/v1.0.1/zotero-copy-meta.xpi",
+          "applications": {
+            "zotero": { "strict_min_version": "6.99.999" }
+          }
+        }
+      ]
+    }
+  }
+}
