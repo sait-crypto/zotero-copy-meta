@@ -1,12 +1,16 @@
 {
   "addons": {
-    "你的插件ID (必须和manifest.json里的一样)": {
+    "zotero-copy-meta@saiteiii": {
       "updates": [
         {
           "version": "1.0.1",
-          "update_link": "https://github.com/zhangsan/zotero-copy-meta/releases/download/v1.0.1/zotero-copy-meta.xpi",
+          "update_link": "https://raw.githubusercontent.com/sait-crypto/zotero-copy-meta/refs/heads/main/dist/zotero-copy-meta-1.0.1.xpi",
+          "update_hash": "sha256:02bfe51bfad87a870140f1241cb030982a813b267fcccb0d7c69496f277d7806",
           "applications": {
-            "zotero": { "strict_min_version": "6.99.999" }
+            "zotero": {
+              "strict_min_version": "6.99.999",
+              "strict_max_version": "10.0.*"
+            }
           }
         }
       ]
